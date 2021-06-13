@@ -21,7 +21,7 @@ public class HashController {
 
     @RequestMapping("/hello")
     public String hello() {
-        return "hello deploy 333";
+        return "hello deploy 444";
     }
 
     private String getMD5Digest(String input) throws NoSuchAlgorithmException {
